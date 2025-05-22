@@ -1,8 +1,3 @@
-Here's a clean and professional `README.md` file tailored to your **Booking Repair App**:
-
----
-
-```markdown
 # 🔧 Booking Repair App
 
 A smart, responsive car repair booking application built with **React.js** and **Tailwind CSS**. It helps users quickly locate nearby service stations and book available repair time slots based on their vehicle and service needs.

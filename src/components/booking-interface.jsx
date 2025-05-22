@@ -25,7 +25,7 @@ export default function BookingInterface() {
   };
 
   return (
-    <div className="space-y-6">
+    <div id="bookRepair" className="space-y-6">
       <div className="grid gap-6 md:grid-cols-2">
         <div className="space-y-6">
           <CarTypeSelection />

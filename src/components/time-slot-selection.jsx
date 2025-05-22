@@ -136,7 +136,7 @@ export default function TimeSlotSelection() {
 
               <div className="pt-4 border-t mt-6">
                 <Button
-                  className="w-full"
+                  className="w-full bg-blue-600 hover:bg-blue-700 text-white"
                   size="lg"
                   disabled={
                     !state.selectedTimeSlot || state.bookingStatus === "loading"

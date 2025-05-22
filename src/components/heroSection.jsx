@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function HeroSection() {
   return (
@@ -11,7 +12,6 @@ export default function HeroSection() {
       className="bg-chart-3/95 backdrop-blur supports-[backdrop-filter]:bg-chart-3/60 dark:bg-gray-950 pt-20 pb-32 px-4 sm:px-6 lg:px-8"
     >
       <div className="max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center justify-between gap-12">
-        {/* Text */}
         <motion.div
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
@@ -27,15 +27,19 @@ export default function HeroSection() {
           </p>
 
           <div className="mt-6 flex justify-center md:justify-start gap-4">
-            <Button className="bg-blue-600 hover:bg-blue-700 text-white text-base px-6 py-2 rounded-xl">
-              Book a Repair
-            </Button>
-            <Button
-              variant="outline"
-              className="text-base px-6 py-2 rounded-xl"
-            >
-              Learn More
-            </Button>
+            <Link href="#bookRepair">
+              <Button className="bg-blue-600 hover:bg-blue-700 text-white text-base px-6 py-2 rounded-xl">
+                Book a Repair
+              </Button>
+            </Link>
+            <Link href="#services">
+              <Button
+                variant="outline"
+                className="text-base px-6 py-2 rounded-xl"
+              >
+                Learn More
+              </Button>
+            </Link>
           </div>
         </motion.div>
 

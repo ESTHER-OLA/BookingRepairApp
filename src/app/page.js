@@ -7,13 +7,16 @@ import { BookingProvider } from "@/context/booking-context";
 
 export default function Home() {
   return (
-    <main className="">
+    <main className="overflow-y-auto">
       <HeroSection />
 
       <ServicesSection />
 
       <AboutSection />
-      <div id="bookRepair" className="max-w-5xl mx-auto">
+      <div
+        id="bookRepair"
+        className="bg-chart-3/95 backdrop-blur supports-[backdrop-filter]:bg-chart-3/60 dark:bg-gray-950 py-15 px-8"
+      >
         <div className="text-center w-[60vw] flex flex-col items-center px-10 mx-auto my-8">
           <h2 className="text-3xl font-bold text-gray-900 dark:text-white mb-4 text-center">
             Book <span className="text-blue-600">Repair</span>

@@ -172,10 +172,7 @@ export default function Navbar() {
                     </Button>
                   </Link>
                   <Link href="/signup">
-                    <Button
-                      size="sm"
-                      className="bg-gradient-to-r from-chart-5 to-orange-600 hover:from-amber-600 hover:to-orange-700"
-                    >
+                    <Button size="sm" className="bg-blue-600 hover:bg-blue-700">
                       Sign Up
                     </Button>
                   </Link>
